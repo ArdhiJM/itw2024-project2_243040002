@@ -219,7 +219,7 @@ body {
   height: 520px;
   width: 50%;
   position: absolute;
-  top: -36px;
+  top: -80px;
   right: 20px;
 }
 
@@ -324,11 +324,7 @@ body {
 .container-content {
   width: 90%;
   height: 350px;
-  background-image: linear-gradient(
-    145deg,
-    rgba(244, 129, 63, 1) 0%,
-    rgba(241, 85, 106, 1) 100%
-  );
+  background-image: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
   margin: auto;
   padding: 30px;
   text-align: end;
@@ -463,7 +459,7 @@ body {
   color: #777;
 }
 
-.btn-contact{
+.btn-contact {
   display: inline-block;
   font-size: 14px;
   border-radius: 25px;
@@ -480,7 +476,7 @@ body {
   border: 2px solid rgb(255, 129, 57);
 }
 
-.content-contact{
+.content-contact {
   width: 100%;
   height: 100%;
   display: flex;
@@ -489,7 +485,7 @@ body {
   flex-direction: column;
 }
 
-.heading-content{
+.heading-content {
   color: white;
   margin-bottom: 30px;
   font-size: 42px;
@@ -498,19 +494,19 @@ body {
   letter-spacing: 1px;
 }
 
-.heading-content span{
+.heading-content span {
   color: rgb(255, 129, 57);
 }
 
-.para-content{
+.para-content {
   font-size: 15px;
   line-height: 30px;
   color: rgb(255, 255, 255, 0.918);
   margin: 16px 0px;
 }
 
-footer{
-  background-color: rgb(4,4,4);
+footer {
+  background-color: rgb(4, 4, 4);
   margin: 0px 0px !important;
   height: 10vh;
   margin-top: 30px !important;
@@ -519,13 +515,12 @@ footer{
   justify-content: center;
 }
 
-.para-footer{
+.para-footer {
   margin: 0px 0px;
 }
 
-@media (max-width:600px){
-  .form-origin{
-      display: flex !important;
+@media (max-width: 600px) {
+  .form-origin {
+    display: flex !important;
   }
 }
-
